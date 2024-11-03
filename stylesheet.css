@@ -239,7 +239,7 @@ h1 span{
 .pricing{
     grid-area: price;
     display: grid;
-    height: 550px;
+    height: 650px;
     justify-content: center;
     padding: 20px 0;
     background-image: url(images/Black\ wallpaper.jpg);
@@ -443,11 +443,13 @@ h1 span{
     .viewbox{
         width: 100vw;
         height: 500px;
-        margin-bottom: 100px ;
         
     }
-    .viewbox > div:hover{   
-        scale: 1;
-        transform: translate(0px, -20px);
-    }
+        .viewbox > div:hover{
+            background-color: var(--secondaryColor);
+            border: 1px solid var(--accent);
+            scale: 1;
+            transform: none;
+            color: #131515;
+        }
 }
